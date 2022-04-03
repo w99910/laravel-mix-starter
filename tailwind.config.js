@@ -3,7 +3,11 @@ module.exports = {
     "./public/index.html",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        'poppins':['Poppins'],
+      }
+    },
   },
   plugins: [],
 }
