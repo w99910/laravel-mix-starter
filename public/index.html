@@ -8,7 +8,16 @@
     <title>Document</title>
 </head>
 <body class="w-screen h-screen bg-sky-400 flex items-center justify-center font-poppins">
-    <h1>This is text</h1>
+    <div class="relative w-4/12 h-2/6 ">
+        <svg class="absolute top-8 left-8">
+            <circle r="20" cx="10" cy="10"></circle>
+        </svg>
+            <!-- backdrop-blur-lg is used in following div-->
+        <div class="w-full h-full bg-[rgba(255,255,255,0.4)] backdrop-blur-lg text-center flex items-center justify-center rounded-lg">
+             <!-- blur is used in following div-->
+            <h1 class="blur">This is text</h1>
+          </div>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
